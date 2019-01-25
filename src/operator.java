@@ -1,7 +1,7 @@
 import java.util.*;
 public class operator {
 
-    public static void main(String[] Strings) {
+    public static void main(String[] args) {
     Scanner s1 = new Scanner(System.in);
     System.out.println("Enter two operands: ");
     double firstnumber = s1.nextDouble();
@@ -35,7 +35,7 @@ public class operator {
             System.out.print(+mod);
             break;
 
-        // operator doesn't match any case constant (+, -, *, /)
+        
         default:
           System.out.print("Error! operator is not correct");
     }
