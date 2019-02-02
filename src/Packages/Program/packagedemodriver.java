@@ -1,4 +1,4 @@
-import java.*;
+import exercise.java.*;
 public class packagedemodriver
 {
 	public static void main(String args[])
