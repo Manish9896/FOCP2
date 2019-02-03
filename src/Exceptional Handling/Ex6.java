@@ -23,13 +23,20 @@ class C extends B {
 public class Ex6 {
         public static void main(String[] args) {
                A a = new C();
-               try {
+               try 
+               {
                        a.f();
-               }       catch(LevelThreeException e3) {
+               }       
+               catch(LevelThreeException e3) 
+               {
                        System.out.println("Caught e3");               
-               }       catch(LevelTwoException e2) {
+               }       
+               catch(LevelTwoException e2) 
+               {
                        System.out.println("Caught e2");
-               }       catch(LevelOneException e1) {
+               }       
+               catch(LevelOneException e1) 
+               {
                        System.out.println("Caught e1");
                }            
         }

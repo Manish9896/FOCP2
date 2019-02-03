@@ -1,4 +1,12 @@
-class TestCustomException1{  
+class InvalidAgeException extends Exception
+{  
+ InvalidAgeException(String s)
+ {  
+  super(s);  
+ }
+   
+}  
+class TestCustomException{  
   
    static void validate(int age)throws InvalidAgeException{  
      if(age<18)  
